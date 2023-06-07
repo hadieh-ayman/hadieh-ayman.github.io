@@ -302,13 +302,13 @@ nav {
 }
 
 .project-card.one{
-    background-image: url(../assets/img/recodrone.PNG);
+    background-image: url(../assets/img/recodrone.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .project-card.two{
-    background-image: url(../assets/img/orchid.PNG);
+    background-image: url(../assets/img/orchid.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -321,7 +321,7 @@ nav {
 }
 
 .project-card.four{
-    background-image: url(../assets/img/yalapay.PNG);
+    background-image: url(../assets/img/yalapay.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
