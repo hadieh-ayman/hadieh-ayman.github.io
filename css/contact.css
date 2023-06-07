@@ -1,0 +1,115 @@
+.contact-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr;
+    grid-gap: 2rem;
+    margin: 2rem 0;
+    padding: 2rem 5rem;
+}
+
+.profile-img {
+    height: 15rem;
+}
+
+.touch {
+    grid-column: span 3;
+}
+
+.contact-title {
+    text-transform: capitalize;
+    font-family: 'Fira Mono', monospace;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--primary);
+}
+
+.contact-info p {
+    margin: 0.5rem 1rem;
+}
+
+.form-title {
+    text-transform: capitalize;
+    color: var(--primary);
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+    font-family: 'Fira Mono', monospace;
+}
+
+.form-container {
+    text-transform: capitalize;
+}
+
+.form-container input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: 3px solid var(--secondary);
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: inherit;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.form-container input:hover, textarea:hover {
+    border-color: var(--primary);
+}
+
+.form-container input:focus, textarea:focus {
+    border-color: var(--primary);
+}
+
+.label {
+    padding-left: 0.5rem;
+}
+
+.map img {
+    height: 25rem;
+}
+
+@media only screen and (max-width:50rem) {
+    .contact-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "touch"
+            "info"
+            "form";
+        margin: 0;
+        padding: 2rem;
+    }
+
+    .touch {
+        grid-area: touch;
+    }
+
+    .form-title{
+        font-size: 1.5rem;
+    }
+
+    .profile-img{
+        height: 8rem;
+    }
+
+    .contact-info {
+        display: flex;
+        grid-area: info;
+    }
+
+    .contact-title {
+        font-size: 1rem;
+    }
+
+    .form-container {
+        grid-area: form;
+    }
+
+    .input{
+        max-width: 100%;
+    }
+    .map {
+        display: none;
+    }
+}
