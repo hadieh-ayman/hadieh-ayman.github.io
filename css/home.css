@@ -74,7 +74,7 @@ nav {
 /* header */
 .header {
     padding: 0 5rem;
-    background-image: url(../img/Header-cropped.jpg);
+    background-image: url(../assets/img/Header-cropped.jpg);
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -302,40 +302,40 @@ nav {
 }
 
 .project-card.one{
-    background-image: url(../img/recodrone.PNG);
+    background-image: url(../assets/img/recodrone.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .project-card.two{
-    background-image: url(../img/orchid.PNG);
+    background-image: url(../assets/img/orchid.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .project-card.three{
-    background-image: url(../img/oubliette.png);
+    background-image: url(../assets/img/oubliette.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .project-card.four{
-    background-image: url(../img/yalapay.PNG);
+    background-image: url(../assets/img/yalapay.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .project-card.five{
-    background-image: url(../img/project-5.jpg);
+    background-image: url(../assets/img/project-5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .project-card.six{
-    background-image: url(../img/project-6.jpg);
+    background-image: url(../assets/img/project-6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
